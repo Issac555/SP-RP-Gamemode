@@ -1,8 +1,8 @@
-# [JunkBuster en Español](https://solutions.eurocaserecords.com) 
-JunkBuster, traducido al español y modificado para servidores de rol.
+# [Spain Roleplay]
+Servidor en decadencia, libero está gm ya qué la borrare de mi PC.
 
 ## Creador, y traducción.
 
-* Creado por Double-O-Seven
-* Traducido por Jackmoon (Beck Solutions LLC)
+* Creado por mí, gm base Adri1
+
                                               
