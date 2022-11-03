@@ -1,0 +1,8 @@
+{
+    "entry": "Sufian.pwn",
+    "output": "Sufian.amx",
+    "dependencies":
+    [
+        "sampctl/samp-stdlib"
+    ]
+  }

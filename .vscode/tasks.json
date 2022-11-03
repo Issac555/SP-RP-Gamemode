@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks":
+	[
+		{
+			"label": "Pawn Compiler",
+			"type": "shell",
+			"command": "./pawn/pawncc.exe",
+			"args": ["${file}", "-D${fileDirname}"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"isBackground": false,
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated"
+			}
+		}
+	]
+}
