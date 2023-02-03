@@ -6,11 +6,11 @@ que el servidor entrara en decadencía de usuarios, además de una administraci�
 servidor seguia con el servidor, llego el momento de liberarla, está funcional, dudo que encuentren bugs, si los encuentran no duden en avisar.
 
 
-## Creador, y traducciÃ³n.
+## Creador, y traducción
 
 * Información
 * Creadores y programadores de este; Dueño y nombre del servidor: Antrax, programado por :Issac/hext.
-Repetar crÃ©ditos, uso libre con menciÃ³n en este.
+Repetar créditos, uso libre con mención en este.
 
 
 
