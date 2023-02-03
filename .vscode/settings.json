@@ -1,3 +1,10 @@
 {
-    "files.encoding": "windows1252"
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "${workspaceFolder}/src/amx",
+    "vscord.app.name": "Visual Studio Code",
+    "vscord.status.state.idle.enabled": true,
+    "vscord.status.button.inactive.enabled": true,
+    "vscord.status.button.idle.enabled": true,
+    "files.encoding": "windows1252",
+    "vscord.status.idle.resetElapsedTime": true
 }

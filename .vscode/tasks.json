@@ -1,21 +1,28 @@
 {
-	"version": "2.0.0",
-	"tasks":
-	[
-		{
-			"label": "Pawn Compiler",
-			"type": "shell",
-			"command": "./pawn/pawncc.exe",
-			"args": ["${file}", "-D${fileDirname}"],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
-			"isBackground": false,
-			"presentation": {
-				"reveal": "always",
-				"panel": "dedicated"
-			}
-		}
-	]
-}
+    "version": "2.0.0",
+    "tasks":
+    [
+      {
+        "label": "build-normal",
+        "type": "shell",
+        "command": "${workspaceRoot}/Pawn/pawncc.exe",
+        "args": ["'${file}'", "'-D${fileDirname}'", "'-;+'", "'-(+'", "'-d3'"],
+  
+        "group":
+        {
+          "kind": "build",
+          "isDefault": true
+        },
+  
+        "isBackground": false,
+  
+        "presentation":
+        {
+          "reveal": "silent",
+          "panel": "dedicated"
+        },
+  
+        "problemMatcher": "$pawncc"
+      }
+    ]
+  }

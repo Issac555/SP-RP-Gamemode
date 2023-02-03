@@ -16,10 +16,6 @@ HasPlayerShield(playerid) {
     return false;
 }
 
-IsPlayerShieldInUse(playerid) {
-    return pInShield[playerid];
-}
-
 ResetPlayerShield(playerid) {
     for(new i = 0; i < sizeof pShieldCurrentObject[]; i ++) {
         if(pShieldCurrentObject[playerid][i] != INVALID_STREAMER_ID) {
